@@ -1,0 +1,40 @@
+.common-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.first-container {
+  background-image: url("../images/bgone.png");
+}
+
+.second-container {
+  background-image: url("../images/bgtwo.png");
+}
+
+.third-container {
+  background-image: url("../images/bgthree.png");
+}
+
+.fourth-container {
+  background-image: url("../images/bgfour.png");
+}
+
+.fifth-container {
+  background-image: url("../images/bgfive.png");
+}
+
+@media (max-width: 700px) {
+  .first-slider {
+    height: 50vh;
+  }
+
+  .common-bg {
+    height: 100%;
+    /* background-size: ; */
+  }
+
+  .common-p {
+    font-size: small;
+  }
+}
